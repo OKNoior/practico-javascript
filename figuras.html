@@ -7,7 +7,63 @@
     <title>Figuras Geométricas</title>
 </head>
 <body>
-    <h1>Figuras geométricas</h1>
+    <header>
+        <h1>Figuras geométricas</h1>
+        <p>Este es el primer taller del curso práctico de JavaScript</p>
+    </header>
+    <body>
+        <section>
+            <h2>Calcula el área y perímetro de un cuadrado</h2>
+            <form action="">
+                <label for="inputCuadrado">Escribe cuánto mide cada lado de tu cuadrado</label>
+                <input id="inputCuadrado" type="number">
+                <button type="button" onclick="calcularPerimetroCuadrado()">Calcular el perímetro</button>
+                <button type="button" onclick="calcularAreaCuadrado()">Calcular el área</button>
+            </form>
+        </section>
+        <section>
+            <br>
+            <h2>Calcula el área y perímetro de un triángulo</h2>
+            <form action="">
+                <label for="inputLado1">Escribe cuánto mide el primer lado de tu triángulo</label>
+                <input id="inputLado1" type="number">
+                <label for="inputLado2">Escribe cuánto mide el segundo lado de tu triángulo</label>
+                <input id="inputLado2" type="number">
+                <label for="inputBase">Escribe cuánto mide la base de tu triángulo</label>
+                <input id="inputBase" type="number">
+                <label for="inputAltura">Escribe la altura de tu triángulo</label>
+                <input id="inputAltura" type="number">
+                <button type="button" onclick="calcularPerimetroTriangulo()">Calcular el perímetro</button>
+                <button type="button" onclick="calcularAreaTriangulo()">Calcular el área</button>
+            </form>
+        </section>
+        <section>
+            <br>
+            <h2>Calcula el diámetro, perímetro y área de un circulo</h2>
+            <form action="">
+                <label for="inputCirculo">Escribe el radio del circulo</label>
+                <input id="inputCirculo" type="number">
+                <button type="button" onclick="calcularDiametroCirculo()">Calcular el diámetro</button>
+                <button type="button" onclick="calcularPerimetroCirculo()">Calcular el perímetro</button>
+                <button type="button" onclick="calcularAreaCirculo()">Calcular el área</button>
+            </form>
+        </section>
+        <section>
+            <br>
+            <h2>Calcula la altura de un triángulo isóseles</h2>
+            <form action="">
+                <label for="inputIso1">Escribe cuánto mide el primer lado de tu triángulo</label>
+                <input id="inputIso1" type="number">
+                <label for="inputIso2">Escribe cuánto mide el segundo lado de tu triángulo</label>
+                <input id="inputIso2" type="number">
+                <label for="inputBaseIso">Escribe cuánto mide la base de tu triángulo</label>
+                <input id="inputBaseIso" type="number">
+                <button type="button" onclick="calcularAlturaTriangulo()">Calcular altura</button>
+                
+            </form>
+        </section>
+    </body>
+    
     <script src="./fuguras.js"></script>
 </body>
 </html>
